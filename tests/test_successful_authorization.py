@@ -9,7 +9,3 @@ def test_successful_authorization(login_page: LoginPage, email: str, password: s
     login_page.fill_login_form(email=email, password=password)
     login_page.click_login_button()
 
-
-    # products_title = chromium_page.locator('[data-test="title"]')
-    # expect(products_title).to_be_visible()
-    # expect(products_title).to_have_text('Products')
